@@ -1,4 +1,4 @@
-<!<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@ if (!isset($_POST['a']) && !isset($_POST['b'])):
         <input type="submit">
     </form>
 <?php else:
-    echo $_POST['a'] + $_POST['b'];
+    echo 'r'. $_POST['a'] + $_POST['b'];
 endif;
 ?>
 </body>
